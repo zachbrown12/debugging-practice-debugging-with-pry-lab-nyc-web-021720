@@ -13,7 +13,7 @@ def turtle_traits(turtles)
     turtle.each do |key, value| 
       print key
       binding.pry
-      if key == "traits:"
+      if key == ":traits:"
         print value
       
       else
