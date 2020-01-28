@@ -11,6 +11,6 @@ end
 def turtle_traits(turtles)
   turtles.map do |turtle|
     print turtle[:trait]
-    end
+    
   end
 end
