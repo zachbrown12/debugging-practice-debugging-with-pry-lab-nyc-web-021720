@@ -14,8 +14,8 @@ def turtle_traits(turtles)
     turtle.each do |key, value| 
       if key == "traits"
         return "a"
-      return "#{key} and #{value}"
       
+    end
     end
   end
 end
