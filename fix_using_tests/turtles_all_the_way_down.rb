@@ -10,4 +10,8 @@ end
 
 def turtle_traits(turtle_hash)
   turtle_hash.map do |turtle|
+    turtle[:traits].map do |trait|
+      trait
     end
+  end
+end
