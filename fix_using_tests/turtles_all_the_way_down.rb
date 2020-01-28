@@ -11,7 +11,7 @@ end
 def turtle_traits(turtles)
   newarray =[]
   turtles.map do |turtle|
-    newarray << turtle[:traits].to_a
+    newarray << turtle[:traits].split
   #  turtle.each do |key, value| 
    #   newarray << turtle[:traits]
       
