@@ -14,6 +14,8 @@ def turtle_traits(turtles)
       if key == "traits"
         print value
       end
+     else
+       break
     end
   end
 end
