@@ -13,7 +13,7 @@ def turtle_traits(turtles)
   turtles.map do |turtle|
     turtle.each do |key, value| 
       if key == ":traits"
-        print value
+        return value
       
       else
        break
