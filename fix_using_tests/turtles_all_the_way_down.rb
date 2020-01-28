@@ -13,7 +13,7 @@ def turtle_traits(turtles)
     turtle.each do |key, value| 
       if key == ":traits"
         print value
-  
+      end
     end
   end
 end
