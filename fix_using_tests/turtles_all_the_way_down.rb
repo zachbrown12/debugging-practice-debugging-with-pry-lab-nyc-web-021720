@@ -11,6 +11,7 @@ end
 def turtle_traits(turtles)
   turtles.map do |turtle|
     turtle.each do |key, value| 
+      print key
       if key == "traits:"
         print value
       
