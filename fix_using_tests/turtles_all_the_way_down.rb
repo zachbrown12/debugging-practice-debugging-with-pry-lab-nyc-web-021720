@@ -15,6 +15,5 @@ def turtle_traits(turtles)
       return turtle[:traits]
       
     end
-    end
   end
 end
