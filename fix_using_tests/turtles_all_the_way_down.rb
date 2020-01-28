@@ -10,8 +10,8 @@ end
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
-    turtle.each do |trait|
-      trait
+    turtle.each do |key, value| 
+      turtl
     end
   end
 end
