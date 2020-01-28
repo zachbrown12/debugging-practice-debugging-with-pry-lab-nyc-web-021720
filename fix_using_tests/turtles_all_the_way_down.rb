@@ -16,4 +16,5 @@ def turtle_traits(turtles)
       
     end
   end
+  return newarray
 end
