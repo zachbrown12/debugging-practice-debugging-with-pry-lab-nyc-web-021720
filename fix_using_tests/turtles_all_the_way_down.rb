@@ -12,7 +12,7 @@ def turtle_traits(turtles)
   
   turtles.map do |turtle|
     turtle.each do |key, value| 
-      return turtle[:traits]
+      print turtle[:traits]
       
     end
   end
