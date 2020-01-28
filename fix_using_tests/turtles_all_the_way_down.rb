@@ -15,7 +15,6 @@ def turtle_traits(turtles)
   #  turtle.each do |key, value| 
    #   newarray << turtle[:traits]
       
-    end
   end
   return newarray
 end
